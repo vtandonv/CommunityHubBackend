@@ -8,9 +8,8 @@
         source: pull
 
     - name: Create back-end container
-        docker_container:
-          name: springboot-con1
-          image: vtandonv/communityhubbackend
-          ports:
+      docker_container:
+           name: springboot-con1
+           image: vtandonv/communityhubbackend
+           ports:
             - "8090:8090"
-      
